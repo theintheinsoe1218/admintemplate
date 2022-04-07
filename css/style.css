@@ -41,5 +41,62 @@ a{
 	background-color: #222;
 	border-radius: 5px;
 }
-/*start left sidebar*/
+/*start left navbar*/
+
+/*start top sidebar*/
+.breadcrumb a{
+	color: #f4f4f4;
+}
+
+@media(max-width: 760px){
+	.sidebars{
+		height: auto;
+		position: static;
+	}
+	.topnavbars{
+		position: static;
+	}
+}
+
+
+.searchinputs{
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid #999;
+	border-radius: 0;
+}
+
+.searchinputs:focus{
+	background-color: transparent;
+	color: #fff;
+	border-bottom: 2px solid #e82107;
+	box-shadow: none;
+}
+
+.searchbtns{
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+
+
+.searchbtns:hover{
+	transform: translateY(-1px);
+}
+
+.iconparents{
+	position: relative;
+}
+
+.icons::after{
+	content: "";
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #e82107;
+	position: absolute;
+	top: 0;
+	left: 25px;
+}
+/*end top navbar*/
 
