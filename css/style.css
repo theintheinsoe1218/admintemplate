@@ -100,3 +100,22 @@ a{
 }
 /*end top navbar*/
 
+/*start card section*/
+.cardcommmons{
+	box-shadow: 1px 2px 5px #999;
+	border-top: 1px groove darkorange;
+	border-left: 1px groove darkorange;
+	transition: all 0.4s;
+}
+
+.cardcommmons:hover{
+	box-shadow: 1px 3px 15px #999;
+	transform: translateY(-1px);
+	border: none;
+	border-bottom: 1px groove darkorange;
+	border-right: 1px groove darkorange;
+
+
+}
+/*end card section*/
+
