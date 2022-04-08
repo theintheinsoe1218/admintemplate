@@ -119,3 +119,9 @@ a{
 }
 /*end card section*/
 
+/*start progress & task section*/
+.taskborders{
+	border-left: 3px solid tomato;
+}
+/*end progress & task section*/
+
